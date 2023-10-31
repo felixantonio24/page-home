@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter:wght@900&display=swap');
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Inter', sans-serif;
+}
+
+video{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    object-fit: cover;
+    z-index: -1;
+    top: 0;
+    width: 100%;
+    height: auto;
+
+}
+:root
+{
+    --white:#f9fafc;
+    --black:rgb(8, 8, 8);
+}
+
+
+
+ul{
+    display:flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.tittle{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 340px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Inter', sans-serif;
+    color:var(--white);
+    font-size: 78px;
+    text-shadow: 10px 5px 10px var(--black); 
+}
+
+
