@@ -8,9 +8,24 @@
 }
 
 nav{
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Dancing Script';
+    font-family: 'Inter';
+
 }
+
+ul{
+    display:flex;
+    justify-content:flex-end;
+    gap: 50px;
+    color: var(--white);
+    list-style-type: none;
+    margin-right: 60px;
+}
+ul li a {
+    color: white;
+    text-decoration: none;
+  }
+
 
 video{
     position: absolute;
@@ -27,27 +42,64 @@ video{
 {
     --white:#f9fafc;
     --black:rgb(8, 8, 8);
+    --Lead: rgb(54, 54, 54);
 }
 
 
 
-ul{
-    display:flex;
-    justify-content: center;
-    gap: 50px;
-
-}
 
 .tittle{
     display: flex;
     justify-content: center;
     position: relative;
-    margin-top: 340px;
+    margin-top: 350px;
     font-family: 'Dancing Script', cursive;
     font-family: 'Inter', sans-serif;
     color:var(--white);
-    font-size: 78px;
+    font-size: 79px;
     text-shadow: 10px 5px 10px var(--black); 
 }
+
+.Boton-Container{
+    display:flex;
+    justify-content: center;
+    gap: 150px;
+    font-family: 'Dancing Script', cursive;
+    position: relative;
+    margin-top: 250px;
+
+}
+
+/*BTNES*/
+
+.btn-places{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Inter', sans-serif;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 18px;
+    box-shadow: 4px 1px 3px var(--black);
+}
+
+.btn-placefoot{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Inter', sans-serif;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 18px;
+    box-shadow:4px 1px 3px var(--black);
+}
+
+.btn-regions{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Inter', sans-serif;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 18px;
+    box-shadow: 3px 1px 5px var(--black);
+}
+
+    
+
 
 
