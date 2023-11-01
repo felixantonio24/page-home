@@ -10,22 +10,22 @@
 nav{
     font-family: 'Dancing Script';
     font-family: 'Inter';
+    
 
 }
 
 ul{
     display:flex;
     justify-content:flex-end;
-    gap: 50px;
+    gap: 55px;
     color: var(--white);
     list-style-type: none;
     margin-right: 60px;
 }
 ul li a {
-    color: white;
+    color: var(--white);
     text-decoration: none;
   }
-
 
 video{
     position: absolute;
@@ -35,7 +35,7 @@ video{
     z-index: -1;
     top: 0;
     width: 100%;
-    height: auto;
+    height:80%;
 
 }
 :root
@@ -43,6 +43,7 @@ video{
     --white:#f9fafc;
     --black:rgb(8, 8, 8);
     --Lead: rgb(54, 54, 54);
+    --yellow: 
 }
 
 
@@ -52,7 +53,7 @@ video{
     display: flex;
     justify-content: center;
     position: relative;
-    margin-top: 350px;
+    margin-top: 220px;
     font-family: 'Dancing Script', cursive;
     font-family: 'Inter', sans-serif;
     color:var(--white);
@@ -66,7 +67,7 @@ video{
     gap: 150px;
     font-family: 'Dancing Script', cursive;
     position: relative;
-    margin-top: 250px;
+    margin-top: 150px;
 
 }
 
@@ -79,6 +80,7 @@ video{
     border-radius: 10px;
     font-size: 18px;
     box-shadow: 4px 1px 3px var(--black);
+    cursor: pointer;
 }
 
 .btn-placefoot{
@@ -88,6 +90,7 @@ video{
     border-radius: 10px;
     font-size: 18px;
     box-shadow:4px 1px 3px var(--black);
+    cursor: pointer;
 }
 
 .btn-regions{
@@ -97,9 +100,20 @@ video{
     border-radius: 10px;
     font-size: 18px;
     box-shadow: 3px 1px 5px var(--black);
+    cursor: pointer;
 }
 
-    
+.icon-ubicacion{
+    width: 25px;
+}
 
+.placer-food-icon{
+    width: 30px;
+}
+
+.regions-icon{
+    width: 30px;
+    gap:px;
+}
 
 
