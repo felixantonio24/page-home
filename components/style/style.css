@@ -76,7 +76,7 @@ video{
 .btn-places{
     font-family: 'Dancing Script', cursive;
     font-family: 'Inter', sans-serif;
-    padding: 8px;
+    padding: 15px;
     border-radius: 10px;
     font-size: 18px;
     box-shadow: 4px 1px 3px var(--black);
@@ -86,7 +86,7 @@ video{
 .btn-placefoot{
     font-family: 'Dancing Script', cursive;
     font-family: 'Inter', sans-serif;
-    padding: 8px;
+    padding: 15px;
     border-radius: 10px;
     font-size: 18px;
     box-shadow:4px 1px 3px var(--black);
@@ -96,7 +96,7 @@ video{
 .btn-regions{
     font-family: 'Dancing Script', cursive;
     font-family: 'Inter', sans-serif;
-    padding: 8px;
+    padding: 15px;
     border-radius: 10px;
     font-size: 18px;
     box-shadow: 3px 1px 5px var(--black);
@@ -115,5 +115,25 @@ video{
     width: 30px;
     gap:px;
 }
+main{
+    margin-top: 7px;
+}
+.cuerpo{
+    z-index: -1;
+    position: absolute;
+    padding: 0;
+    margin-top: -26.5px;
+    object-fit: cover;
+    width: 100%;
+    opacity: 0.2;
+    }
 
-
+    .title-place-h2{
+        color:var(--lead);
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Inter', sans-serif;
+        display: flex;
+        z-index: 1;
+        margin-left: 80px; 
+        
+    }
