@@ -135,5 +135,7 @@ main{
         display: flex;
         z-index: 1;
         margin-left: 80px; 
+        margin-top: 30px;
+    
         
     }
