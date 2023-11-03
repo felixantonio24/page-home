@@ -35,7 +35,7 @@ video{
     z-index: -1;
     top: 0;
     width: 100%;
-    height:80%;
+    height:83.1%;
 
 }
 :root
@@ -115,8 +115,9 @@ video{
     width: 30px;
     gap:px;
 }
-main{
-    margin-top: 7px;
+main,h1,p,a{
+    margin: 0;
+    padding: 0;
 }
 .cuerpo{
     z-index: -1;
@@ -128,7 +129,7 @@ main{
     opacity: 0.2;
     }
 
-    .title_place_h2{
+    .title_news{
         color:var(--lead);
         font-family: 'Dancing Script', cursive;
         font-family: 'Inter', sans-serif;
@@ -136,7 +137,7 @@ main{
         z-index: 1;
         margin-left: 40px; 
         margin-top: 30px;
-        font-size: 45px;
+        font-size: 30px;
     }
 .title_h2_coffe{
     display: flex;
@@ -148,8 +149,14 @@ main{
 }
 
 .img_coffe_title{
-    object-fit: fill;
     width: 800px;
-    margin-left: 190px;
+    margin-left: 189px;
     height: 400px;
+
+}
+.container_news{
+    text-decoration: none;
+    color: rgb(49, 47, 47);
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Inter', sans-serif;
 }
