@@ -128,14 +128,28 @@ main{
     opacity: 0.2;
     }
 
-    .title-place-h2{
+    .title_place_h2{
         color:var(--lead);
         font-family: 'Dancing Script', cursive;
         font-family: 'Inter', sans-serif;
         display: flex;
         z-index: 1;
-        margin-left: 80px; 
+        margin-left: 40px; 
         margin-top: 30px;
+        font-size: 45px;
     }
+.title_h2_coffe{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Inter', sans-serif;
+    margin-left: 50px;
+}
 
-    
+.img_coffe_title{
+    object-fit: fill;
+    width: 800px;
+    margin-left: 190px;
+    height: 400px;
+}
