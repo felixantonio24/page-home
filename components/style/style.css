@@ -31,10 +31,11 @@ ul li a {
   }
   a:hover{
     color: var(--black);
+  }
+  li:hover{
+    transform: scale(1.2);
 
   }
-
-    
 video{
     position: absolute;
     padding: 0;
