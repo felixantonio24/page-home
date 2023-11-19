@@ -32,6 +32,9 @@ ul li a {
   a:hover{
     color: var(--black);
   }
+  li{
+    transition: 0.5s;
+  }
   li:hover{
     transform: scale(1.2);
 
